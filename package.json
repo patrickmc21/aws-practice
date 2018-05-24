@@ -1,0 +1,21 @@
+{
+  "name": "express-serverless",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.245.1",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "serverless-http": "^1.5.5"
+  },
+  "devDependencies": {
+    "serverless-dynamodb-local": "^0.2.30",
+    "serverless-offline": "^3.24.0"
+  }
+}
